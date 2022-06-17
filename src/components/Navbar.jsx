@@ -13,7 +13,7 @@ const Navbar = () => {
     >
       <span>REDUX STORE</span>
       <div>
-        <Link className="navLink" to="/">
+        <Link className="navLink" to="/redux-toolkit">
           Home
         </Link>
         <Link className="navLink" to="/cart">
