@@ -11,8 +11,8 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/redux-toolki" element={<Home />}></Route>
+            {/* <Route path="/" element={<Home />}></Route> */}
+            <Route path="/redux-toolkit" element={<Home />}></Route>
             <Route path="/cart" element={<Cart />}></Route>
           </Routes>
         </BrowserRouter>
