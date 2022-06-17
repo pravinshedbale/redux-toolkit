@@ -12,6 +12,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />}></Route>
+            <Route path="/redux-toolki" element={<Home />}></Route>
             <Route path="/cart" element={<Cart />}></Route>
           </Routes>
         </BrowserRouter>
